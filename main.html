@@ -1,15 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
-    <meta charset="UTF-8">
-    <title>الصفحة الرئيسية</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="auth.js" defer></script>
+  <meta charset="UTF-8">
+  <title>الصفحة الرئيسية | سرّنا الأزرق</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="auth.js" defer></script>
 </head>
-<body onload="checkLogin()">
-    <div class="main-content">
-        <h1>مرحبًا بك يا عز</h1>
-        <p>هذه هي الصفحة الرئيسية لـ "سرّنا الأزرق".</p>
+<body>
+
+  <div class="container">
+    <h1 class="main-title">مرحبًا بك في عالمك، عزتارو</h1>
+    <p class="subtitle">اختر وجهتك التالية:</p>
+
+    <div class="button-group">
+      <button onclick="window.location.href='memory_access.html'">ملف الذكريات</button>
+      <button onclick="window.location.href='index.html'">تسجيل الخروج</button>
     </div>
+  </div>
+
 </body>
 </html>
